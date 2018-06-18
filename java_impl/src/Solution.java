@@ -1,9 +1,14 @@
-import java.io.*;
-import java.util.*;
-import java.net.*;
-import com.google.gson.*;
+import com.google.gson.Gson;
 import pojos.Datum;
 import pojos.MovieSearchResults;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 
 public class Solution {
